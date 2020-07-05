@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>team-WASABI</title>
+        <link rel="stylesheet" href="stylesheet.css">
+
+        <!------------スライドショー用、jQuaryのなんかようわからんやつ------------>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+            <script type="text/javascript">
+                    $(document).ready(function(){
+                        $('.slider').bxSlider({
+                            auto: true,
+                            pause: 5000,
+                        });
+                    });
+            </script>
+        <!------------スライドショー用、jQuaryのなんかようわからんやつ------------>
+    </head>
+
+
+  <body>
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <img class="header-logo-title" src="wasabi_logo_title.png">
+                <img class="header-logo-icon" src="wasabi_logo_icon.png">
+            </div>
+            <!-- divからのaで作ってみたヘッダーメニュー　--
+            <div class="header-right">
+                <a href="#">HOME</a>
+                <a href="#">What's わさび</a>
+                <a href="#">隊員</a>
+                <a href="#">LIVE SCHEDULE</a>
+                <a href="#">DISCOGRAPHY</a>
+            </div>
+            !-- divからのaで作ってみたヘッダーメニュー -->
+
+            <ul class="header-right">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">What's わさび</a></li>
+                <li><a href="#">隊員</a></li>
+                <li><a href="#">LIVE SCHEDULE</a></li>
+                <li><a href="#">DISCOGRAPHY</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <div class="top-wrapper">
+        <div class="container">
+            <!------------スライドショー用、jQuaryのなんかようわからんやつ------------>
+            <div class="slider">
+            <img src="top_slideshow_1.jpeg" height="540" alt="">
+            <img src="top_slideshow_2.jpg" height="540" alt="">
+            <img src="top_slideshow_3.png" height="540" alt="">
+            <img src="top_slideshow_4.jpg" height="540" alt="">
+            </div>
+            <!------------スライドショー用、jQuaryのなんかようわからんやつ------------>
+        </div>
+    </div>
+
+
+
+
+    <div class="members-wrapper">
+        <div class="container">
+            <div class="member member-yuto">
+                <!--<div class="innner"></div>-->
+            </div>
+
+            <div class="member member-anri">
+                <!--<div class="innner"></div>-->
+            </div>
+
+            <div class="member member-kenta">
+                <!--<div class="innner"></div>-->
+            </div>
+        </div>
+    </div>
+
+
+    <div class="message-wrapper"></div>
+
+
+    <footer>
+        <div class="container">
+             <div class="footer-site-map">
+                <a class="link" href="#">HOME</a>
+                <a class="link" href="#">What's わさび</a>
+                <a class="link" href="#">隊員</a>
+                <a class="link" href="#">LIVE SCHEDULE</a>
+                <a class="link" href="#">DISCOGRAPHY</a>
+             </div>
+             <div class="footer-bottom">
+                <a>Copyright © T-man All Rights Reserved<br></a>
+                <a class="link" href="#">Powerd by team-WASABI</a>
+             </div>
+        </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+    background-color: rgba(120, 136, 90, 0.356);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .container {
+      width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px;
+  }
+
+  header {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(54, 54, 54);
+    }
+    .header-left {
+        float: left;
+        }
+        .header-logo-title {
+            height: 50px;
+            margin: 5px 0;
+        }
+        .header-logo-icon {
+            height: 50px;
+            margin: 5px 0;
+            transition: transform 2s;
+        }
+        .header-logo-icon:hover {
+            transform: rotate(180deg);
+        }
+
+    .header-right {
+        float: right;
+        list-style-type: none;
+        height: 60px;
+        margin: 0;
+        font-size: 0;
+    }
+
+        .header-right li {
+            display: inline-block;
+            margin: 0;
+            line-height: 60px;
+        }
+            .header-right a {
+                display: inline-block;
+                line-height: 50px;
+                width: 120px;
+                margin: 5px 1px;
+                text-align: center;
+                font-size: 14px;
+                color:rgba(255, 255, 255, 0.8);
+                background-color: rgb(54, 54, 54);
+                /* 背景色バージョン background-color: rgba(225, 225, 225, 0.2); */
+                /* 普通の下線バージョン border-bottom: 2px solid rgb(120, 136, 90); */
+                border-radius: 4px;
+                transition: 1s;
+
+            }
+
+            .header-right a:hover {
+                color:rgba(255, 255, 255, 1);
+                /* 背景色が白くなるバージョン　background-color: rgba(225, 225, 225, 0.5);　*/
+                background-color:rgba(54, 54, 54, 0);
+                background-image: url(border_wasabi.png);
+                background-position: bottom;
+                background-repeat:  no-repeat;
+                background-size: contain;
+                /* background-blend-mode:lighten; */
+                position: relative;
+            }
+            .header-right a:hover:after {
+                content:"";
+                background-color: black;
+                position: absolute;
+            }
+
+
+.members-wrapper {
+    height: 400px;
+}
+.member {
+    background-color: white;
+    display: inline-block;
+    width: 33%;
+    height: 100px;
+    margin: 5px auto;
+    /* border-radius: 200px; */
+    /* box-sizing: border-box; */
+}
+
+/*
+「::bifore」使って、画面サイズに合わせて正方形を保つ要素作りたかったけど諦めた
+.member::before {
+    width: 100%;
+    padding-top: 100%;
+}
+*/
+
+
+
+
+footer {
+    height: 120px;
+    background-color: rgb(54, 54, 54);
+    list-style-type: none;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+.link {
+    border-bottom: solid thin;
+    color: rgba(255, 255, 255, 0.5);
+}
+.link:hover {
+    /* 色濃くなるバージョン　color: rgba(255, 255, 255, 1.0); */
+    border: none;
+}
+.footer-site-map a {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 12px;
+    height: 15px;
+}
+
+.footer-bottom {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
