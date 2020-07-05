@@ -73,12 +73,6 @@ body {
                 background-repeat:  no-repeat;
                 background-size: contain;
                 /* background-blend-mode:lighten; */
-                position: relative;
-            }
-            .header-right a:hover:after {
-                content:"";
-                background-color: black;
-                position: absolute;
             }
 
 
